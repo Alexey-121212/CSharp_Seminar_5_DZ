@@ -42,10 +42,9 @@ static void PrintArray(int[] array)
 {
     // Введите свое решение ниже
 
-    int count = 0;
-    Console.Write($"{array[0]}");
-    for (int i = 1; i < array.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        Console.Write($" {array[i]}");
+        Console.Write($"{array[i]}\t");
     }
+    Console.WriteLine();
 }
